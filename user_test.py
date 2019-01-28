@@ -1,5 +1,5 @@
-import unittest
-from user import User
+import unittest  # Importing the unittest module
+from user import User  # Importing the user class
 
 
 class TestUser(unittest.TestCase):
@@ -25,8 +25,18 @@ class TestUser(unittest.TestCase):
         '''
         test_save_user test case to test if the user oblect is saved into the users' list
         '''
-        self.new_user.save_user()
+        self.new_user.save_user()  # saving the new user
         self.assertEqual(len(User.user_list), 1)
+
+    def test_user_exists(self):
+        '''
+        test to check if we can return a Boolean is we cannot find the user.
+        '''
+        self.new_user.save_user()
+        test_user = User("User", "12345")
+        test_user.save_user()
+        user_exists = User.user_exists("12345")
+        self.assertTrue(user_exists)
 
 
 if __name__ == '__main__':
