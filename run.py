@@ -58,7 +58,7 @@ def main():
     while True:
         print("\nUse these short codes below:")
         print("." * 40)
-        print("\n ca - create an account, cc - create credentials, gp - generate password, cp - create own password, ex - exit password locker, dc - display credentials, lg - login")
+        print("\n ca - create an account, cc - create credentials, gp - generate password, cp - create own password, ex - exit password locker, dc - display credentials, ")
         short_code = input().lower()
 
         if short_code == 'ca':
