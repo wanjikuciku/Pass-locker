@@ -1,6 +1,6 @@
-### PASSWORD LOCKER
+# PASSWORD LOCKER
 
-# This is a python written terminal based pass-locker.By lorna wanjiku
+### This is a python written terminal based pass-locker.By lorna wanjiku
 
 ## Description
 This is a python application that helps users generate and store passwords for their accounts.
