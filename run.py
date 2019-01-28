@@ -26,9 +26,3 @@ def check_existing_users(characters):
 def main():
     print("Hello Welcome to your Pass-locker. What is your name?")
     user_name = input()
-
-    print(f"Hello {user_name}.")
-    print('\n')
-    while true:
-            print("\nUse these short codes below:")
-            print
