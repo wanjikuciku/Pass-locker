@@ -25,7 +25,7 @@ To run this program
 |The program should let the user create their own password when cp is entered | Enter cp | Enter your password |
 |The program should generate a random 8 characters when gp is enetered | Enter gp | your password is ... |
 |The program should display the credentials when dc is entered | Enter dc | Here is a list of all of your credentials |
-|he program should end when ex is entered | Enter ex | Thank you for using Password locker|
+|The program should end when ex is entered | Enter ex | Thank you for using Pass-locker|
 
 ## License
 MIT License
